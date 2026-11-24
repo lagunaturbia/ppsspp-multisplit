@@ -1,0 +1,27 @@
+# Software Information
+display_name = "Sony - PSP (PPSSPP MultiSplit)"
+display_version = "1.0 (Vulkan / Ad Hoc local)"
+corename = "PPSSPP MultiSplit"
+authors = "PPSSPP Team / PPSSPP MultiSplit contributors"
+license = "GPLv2+"
+permissions = ""
+
+# System Information
+manufacturer = "Sony"
+systemname = "PlayStation Portable"
+systemid = "psp"
+categories = "Emulator"
+database = "Sony - PlayStation Portable"
+supported_extensions = "elf|iso|cso|prx|pbp|chd"
+
+# Features
+supports_no_game = "false"
+savestate = "false"
+savestate_features = "none"
+cheats = "false"
+core_options = "true"
+hardware_render = "false"
+firmware_count = 0
+
+# Description
+description = "PPSSPP MultiSplit Vulkan: 2-4 independent PSP sessions in one RetroArch screen; native Vulkan acceleration, local Ad Hoc, separate controllers and saves, audio from P1 only. Reset returns to player selector. Local worker executable uses a persistent installation path to avoid repeated Windows Firewall authorization prompts."
