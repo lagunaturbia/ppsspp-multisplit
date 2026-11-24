@@ -1,3 +1,5 @@
-# PPSSPP MultiSplit v1.0
+# PPSSPP MultiSplit v1.0.1
 
-First standalone Windows x64 release of the unofficial MultiSplit core. Features 2–4 independent Vulkan PSP sessions, local Ad Hoc, independent controllers and in-game saves, shared options, player-1 audio and a layout selector accessible via Reset. The helper executable now uses a stable path so Windows can remember its firewall authorization. Tested on a Legion Go S with four sessions of Virtua Tennis 3 at 60 FPS. See README for limitations and upstream attribution.
+Input-only maintenance release: the selector accepts any of the first four RetroArch controller ports independently. A held button on one port cannot block another. D-pad or left analog stick and keyboard arrows/Enter work in the selector. If port 1 has not used the selector, the confirming controller is routed to PSP 1; other ports remain in ascending order. Unassigned pads remain neutral. The upstream engine and helper executable are byte-for-byte unchanged from v1.0.
+
+Mock input and layout tests pass; Windows single-controller behavior still needs user validation.

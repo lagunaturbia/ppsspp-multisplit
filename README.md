@@ -30,3 +30,7 @@ The bridge (`bridge.c`) and worker (`worker.c`) are included, with the common AB
 ## License and credits
 
 PPSSPP is developed by the PPSSPP contributors and is licensed under GPL-2.0-or-later. This companion is prepared for distribution under the same license (see `COPYING`). PPSSPP and libretro are credited for the underlying engine and interfaces. No ROMs or game assets are included.
+
+## v1.0.1 input fix
+
+The selector accepts input on all four RetroArch ports and keyboard arrows/Enter. If port 1 has not navigated the selector, the confirming pad controls PSP 1. Other ports are assigned in ascending order. The engine and worker are unchanged.

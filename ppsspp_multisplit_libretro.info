@@ -1,6 +1,6 @@
 # Software Information
 display_name = "Sony - PSP (PPSSPP MultiSplit)"
-display_version = "1.0 (Vulkan / Ad Hoc local)"
+display_version = "1.0.1 (Vulkan / Ad Hoc local)"
 corename = "PPSSPP MultiSplit"
 authors = "PPSSPP Team / PPSSPP MultiSplit contributors"
 license = "GPLv2+"
